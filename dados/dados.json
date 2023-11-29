@@ -1,0 +1,51 @@
+{
+    "Departamentos": [
+      {"DepartamentoID": 1, "Nome_Departamento": "Desenvolvimento"},
+      {"DepartamentoID": 2, "Nome_Departamento": "Suporte Técnico"},
+      {"DepartamentoID": 3, "Nome_Departamento": "Recursos Humanos"},
+      {"DepartamentoID": 4, "Nome_Departamento": "Marketing"},
+      {"DepartamentoID": 5, "Nome_Departamento": "Vendas"}
+      
+    ],
+    "Projetos": [
+      {"ProjetoID": 1, "Nome_Projeto": "Projeto A", "Data_Inicio": "2023-01-01", "Data_Conclusao": "2023-05-01"},
+      {"ProjetoID": 2, "Nome_Projeto": "Projeto B", "Data_Inicio": "2023-02-01", "Data_Conclusao": "2023-06-01"},
+      {"ProjetoID": 3, "Nome_Projeto": "Projeto C", "Data_Inicio": "2023-03-01", "Data_Conclusao": "2023-07-01"},
+      {"ProjetoID": 4, "Nome_Projeto": "Projeto D", "Data_Inicio": "2023-04-01", "Data_Conclusao": "2023-08-01"},
+      {"ProjetoID": 5, "Nome_Projeto": "Projeto E", "Data_Inicio": "2023-05-01", "Data_Conclusao": "2023-09-01"}
+     
+    ],
+    "Tarefas": [
+      {"TarefaID": 1, "Descricao": "Implementar recurso X", "ProjetoID": 1, "Estado": "Em Andamento"},
+      {"TarefaID": 2, "Descricao": "Corrigir bug Y", "ProjetoID": 2, "Estado": "Concluída"},
+      {"TarefaID": 3, "Descricao": "Desenvolver funcionalidade Z", "ProjetoID": 3, "Estado": "Em Andamento"},
+      {"TarefaID": 4, "Descricao": "Testar nova versão", "ProjetoID": 4, "Estado": "Atrasada"}
+      
+    ],
+    "Tickets_Suporte": [
+      {"TicketID": 1, "Descricao": "Problema com o software", "Data_Criacao": "2023-03-01", "Estado": "Aberto"},
+      {"TicketID": 2, "Descricao": "Dúvida do cliente", "Data_Criacao": "2023-04-01", "Estado": "Fechado"},
+      {"TicketID": 3, "Descricao": "Erro crítico no sistema", "Data_Criacao": "2023-05-01", "Estado": "Aberto"}
+      
+    ],
+    "Transacoes_Financeiras": [
+      {"TransacaoID": 1, "Descricao": "Pagamento de fornecedor", "Valor": 5000.00, "Data_Transacao": "2023-03-15"},
+      {"TransacaoID": 2, "Descricao": "Recebimento de cliente", "Valor": 8000.00, "Data_Transacao": "2023-04-01"},
+      {"TransacaoID": 3, "Descricao": "Despesas gerais", "Valor": 2000.00, "Data_Transacao": "2023-05-01"}
+      
+    ],
+    "Funcionarios": [
+      {"FuncionarioID": 1, "Nome": "João Silva", "Cargo": "Desenvolvedor", "DepartamentoID": 1},
+      {"FuncionarioID": 2, "Nome": "Maria Souza", "Cargo": "Analista de Suporte", "DepartamentoID": 2},
+      {"FuncionarioID": 3, "Nome": "Carlos Oliveira", "Cargo": "Gerente de Projetos", "DepartamentoID": 1},
+      {"FuncionarioID": 4, "Nome": "Ana Santos", "Cargo": "Analista de Recursos Humanos", "DepartamentoID": 3}
+      
+    ],
+    "Fato_Funcionarios": [
+      {"FatoID": 1, "FuncionarioID": 1, "DepartamentoID": 1, "ProjetoID": 1, "TarefaID": 1, "TicketID": 1, "TransacaoID": 1, "DataInicio": "2023-01-01", "DataFim": "2023-04-01"},
+      {"FatoID": 2, "FuncionarioID": 2, "DepartamentoID": 2, "ProjetoID": 2, "TarefaID": 2, "TicketID": 2, "TransacaoID": 2, "DataInicio": "2023-02-01", "DataFim": "2023-05-01"},
+      {"FatoID": 3, "FuncionarioID": 3, "DepartamentoID": 1, "ProjetoID": 3, "TarefaID": 3, "TicketID": 3, "TransacaoID": 3, "DataInicio": "2023-03-01", "DataFim": "2023-06-01"}
+      
+    ]
+  }
+  
