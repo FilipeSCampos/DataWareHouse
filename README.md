@@ -9,7 +9,8 @@ A arquitetura proposta visa otimizar o ciclo de vida do produto, aprimorar o sup
 ## Componentes Principais
 
 ## Arquitetura
-[Arquitetura.pdf](https://github.com/FilipeSCampos/DataWareHouse/files/13504711/Arquitetura.pdf)
+![Arquitetura-1](https://github.com/FilipeSCampos/DataWareHouse/assets/113521439/8bb918ab-e6b8-462d-833b-0708eecf1a46)
+
 
 ### 1. Fontes Externas
 
@@ -39,8 +40,5 @@ A orquestração dos fluxos de trabalho de ETL é gerenciada pelo Apache Airflow
 
 Este projeto está aberto a contribuições. Seja você um desenvolvedor, analista de dados ou entusiasta de tecnologia, sua colaboração é bem-vinda. Sinta-se à vontade para explorar o código, abrir issues ou propor melhorias.
 
-## Licença
-
-Este projeto é licenciado sob [Sua Licença].
 
 ---
