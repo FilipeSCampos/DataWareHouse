@@ -1,5 +1,0 @@
-# Use the official Apache Airflow image as the base image
-FROM apache/airflow:2.7.3
-
-# Install pymongo
-RUN pip install pymongo
